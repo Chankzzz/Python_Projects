@@ -1,11 +1,10 @@
-# cdzh dubq ueis disv
-
 from email.message import EmailMessage
+from py_auth import password,email
 import ssl
 import smtplib
 
-email_sender="chandrasekar14920@gmail.com"
-email_password="cdzh dubq ueis disv"
+email_sender=email
+email_password=password
 
 email_receiver=input("Enter the Reciver email \n")
 # email_receiver="wotepej650@nweal.com"
