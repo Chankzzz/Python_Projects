@@ -4,8 +4,9 @@ import ssl
 import smtplib
 
 email_sender=email
+# sender email-id in a String
 email_password=password
-
+# password need to be set in google app password
 email_receiver=input("Enter the Reciver email \n")
 # email_receiver="wotepej650@nweal.com"
 
